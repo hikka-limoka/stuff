@@ -23,7 +23,7 @@ jobs:
         if [ ! -d ".github/workflows" ]; then
           mkdir -p .github/workflows
           # Загрузка файла workflow с Gist в нужную директорию
-          curl -L https://gist.githubusercontent.com/MuRuLOSE/9fa923b9053b327b33a0312d3d366537/raw/63119c728d633242ee88a117af529eddc68e892c/Mirror.yml -o .github/workflows/Mirror.yml
+          curl -L https://raw.githubusercontent.com/hikka-limoka/stuff/refs/heads/main/Mirror.yml -o .github/workflows/Mirror.yml
         fi
     - name: Set git user
       run: |
